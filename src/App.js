@@ -14,7 +14,7 @@ function App() {
   return (
     <>
       <section class="flex font-body overflow-hidden">
-        <IconBar className="" />
+        <IconBar className="hidden md:block" />
         <Sidebar className={toggleLeftSidebar ? " transition" : "transition hidden lg:flex"} />
         <section class="flex-1 sidebar flex flex-col bg-gray-sidebar text-white w-56 h-screen">
           <TopHeader
